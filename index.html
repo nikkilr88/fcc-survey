@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>FCC Survey Form</title>
+</head>
+<body>
+    <nav>
+<span>
+    <i class="fab fa-free-code-camp"></i> Forms
+</span>
+        <ul>
+            <li>About</li>
+            <li>Help</li>
+        </ul>
+    </nav>
+    <header></header>
+
+    <div class="form-wrapper">
+        <i class="fab fa-wpforms"></i>
+        <h1 id="title">Lorem ipsum dolor</h1>
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi distinctio, vitae maiores nisi dolorem cupiditate voluptate
+            ut ratione accusamus!</p>
+        <form id="survey-form">
+            <div class="form-group">
+                <label for="name" id="name-label" class="block">Name</label>
+                <input type="text" id="name" placeholder="First Last" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="number" id="number-label" class="block">Age</label>
+                <input type="number" id="number" min="18" max="99" placeholder="42">
+            </div>
+        
+            <div class="form-group">
+                <label for="email" id="email-label" class="block">E-mail</label>
+                <input type="email" id="email" placeholder="example@email.com" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="">Dropdown</label>
+                <select id="dropdown">
+                    <option value="opt1">Option 1</option>
+                    <option value="opt2">Option 2</option>
+                    <option value="opt3">Option 3</option>
+                </select>
+            </div>
+        
+            <div class="form-group">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita?</p>
+
+                <input type="radio" name="radio" id="radio1" value="Option 1">
+                <label for="radio1">Option 1</label>
+        
+                <br>
+
+                <input type="radio" name="radio" id="radio2" value="Option 2">
+                <label for="radio2">Option 2</label>
+            </div>
+        
+            <div class="form-group">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita?</p>
+                
+                <input type="checkbox" value="pizza">
+                <label>Pizza</label>
+                
+                <br>
+
+                <input type="checkbox" value="tacos">
+                <label for="">Tacos</label>
+                
+                <br>
+
+                <input type="checkbox" value="fried chicken">
+                <label for="">Fried Chicken</label>
+               
+            </div>
+        
+        
+            <div class="form-group">
+                <p>Lorem ipsum dolor sit amet consectetu?</p>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+        
+            <div class="form-group">
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <span class="chat">
+        <i class="fas fa-comments"></i>
+    </span>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
