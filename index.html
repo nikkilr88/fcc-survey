@@ -26,27 +26,32 @@
 
     <div class="form-wrapper">
         <i class="fab fa-wpforms"></i>
-        <h1 id="title">Lorem ipsum dolor</h1>
-        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi distinctio, vitae maiores nisi dolorem cupiditate voluptate
-            ut ratione accusamus!</p>
+
+        <div class="heading">
+            <h1 id="title">Lorem ipsum dolor</h1>
+            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi distinctio, vitae maiores nisi dolorem cupiditate voluptate ut ratione accusamus!</p>
+        </div>
+
+        <hr>
+        
         <form id="survey-form">
-            <div class="form-group">
+            <div class="form-group slide">
+                <input type="text" id="name" required>
                 <label for="name" id="name-label" class="block">Name</label>
-                <input type="text" id="name" placeholder="First Last" required>
             </div>
         
-            <div class="form-group">
+            <div class="form-group slide">
+                <input type="number" id="number" min="18" max="99">
                 <label for="number" id="number-label" class="block">Age</label>
-                <input type="number" id="number" min="18" max="99" placeholder="42">
             </div>
         
-            <div class="form-group">
+            <div class="form-group slide">
+                <input type="email" id="email" required>
                 <label for="email" id="email-label" class="block">E-mail</label>
-                <input type="email" id="email" placeholder="example@email.com" required>
             </div>
         
             <div class="form-group">
-                <label for="">Dropdown</label>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit temporibus dicta fugit ut illum provident?</p>
                 <select id="dropdown">
                     <option value="opt1">Option 1</option>
                     <option value="opt2">Option 2</option>
@@ -67,7 +72,7 @@
             </div>
         
             <div class="form-group">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, accusamus error beatae quam repellendus reiciendis?</p>
                 
                 <input type="checkbox" value="pizza">
                 <label>Pizza</label>
@@ -99,6 +104,8 @@
     <span class="chat">
         <i class="fas fa-comments"></i>
     </span>
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
